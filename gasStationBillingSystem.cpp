@@ -45,13 +45,15 @@ int main()
 		//Cashier's input
 		std::cout << "Customer's Cash: ";
 		std::cin >> customerCash;
-		{
-			if (customerCash < amountFill)
-				std::cout << "INSUFFICIENT FUNDS";
-			    std::cout << std::endl;
-		}
+
 		change = customerCash - amountFill;
-		std::cout << "Change: " << change;
+
+		if (customerCash > amountFill)
+			std::cout << "Change: " << change;
+		else if (customerCash == amountFill)
+			std::cout << "Change: 0";
+		else if (customerCash < amountFill)
+			std::cout << "Insufficient Funds" << '\n';
 		std::cout << std::endl;
 		break;
 
@@ -71,13 +73,15 @@ int main()
 		//Cashier's input
 		std::cout << "Customer's Cash: ";
 		std::cin >> customerCash;
-		{
-			if (customerCash < amountFill)
-				std::cout << "INSUFFICIENT FUNDS";
-			    std::cout << std::endl;
-		}
+		
 		change = customerCash - amountFill;
-		std::cout << "Change: " << change;
+
+		if (customerCash > amountFill)
+			std::cout << "Change: " << change;
+		else if (customerCash == amountFill)
+			std::cout << "Change: 0";
+		else if (customerCash < amountFill)
+			std::cout << "Insufficient Funds" << '\n';
 		std::cout << std::endl;
 		break;
 
@@ -97,13 +101,15 @@ int main()
 		//Cashier's input
 		std::cout << "Customer's Cash: ";
 		std::cin >> customerCash;
-		{
-			if (customerCash < amountFill)
-				std::cout << "INSUFFICIENT FUNDS";
-			    std::cout << std::endl;
-		}
+		
 		change = customerCash - amountFill;
-		std::cout << "Change: " << change;
+
+		if (customerCash > amountFill)
+			std::cout << "Change: " << change;
+		else if (customerCash == amountFill)
+			std::cout << "Change: 0";
+		else if (customerCash < amountFill)
+			std::cout << "Insufficient Funds" << '\n';
 		std::cout << std::endl;
 		break;
 
