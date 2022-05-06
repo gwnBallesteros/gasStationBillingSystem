@@ -6,6 +6,8 @@ const double premium_price = 74.00;
 const double unleaded_price = 73.00;
 const double diesel_price = 76.00;
 
+void itemsList();
+
 int main()
 {
 	//Variable Declarations
@@ -18,31 +20,7 @@ int main()
 	std::cout << std::fixed << std::showpoint;
 	std::cout << std::setprecision(2);
 
-	//Item's List
-	std::cout << "**********PETRON GASOLINE STATION**********";
-	std::cout << std::endl;
-	std::cout << std::endl;
-
-	std::cout << std::setw(2) << "KEY"
-	    << std::setw(11) << "TYPE"
-		<< std::setw(25) << "PRICE";
-	std::cout << '\n';
-
-	std::cout << std::setw(2) << "[A]"
-		<< std::setw(14) << "PREMIUM"
-		<< std::setw(22) << "74.00";
-	std::cout << '\n';
-
-	std::cout << std::setw(2) << "[B]"
-		<< std::setw(15) << "UNLEADED"
-		<< std::setw(21) << "73.00";
-	std::cout << '\n';
-
-	std::cout << std::setw(2) << "[C]"
-		<< std::setw(13) << "DIESEL"
-		<< std::setw(23) << "76.00";
-	std::cout << '\n';
-	std::cout << std::endl;
+	itemsList();
 
 	//Cashier's Input *type*
 	std::cout << "TYPE: ";
@@ -136,4 +114,34 @@ int main()
 	std::cout << "Thank you Come Again." << std::endl;
 
 	return 0;
+}
+
+void itemsList()
+{
+
+	//Item's List
+	std::cout << "**********PETRON GASOLINE STATION**********";
+	std::cout << std::endl;
+	std::cout << std::endl;
+
+	std::cout << std::setw(2) << "KEY"
+		<< std::setw(11) << "TYPE"
+		<< std::setw(25) << "PRICE";
+	std::cout << '\n';
+
+	std::cout << std::setw(2) << "[A]"
+		<< std::setw(14) << "PREMIUM"
+		<< std::setw(22) << "74.00";
+	std::cout << '\n';
+
+	std::cout << std::setw(2) << "[B]"
+		<< std::setw(15) << "UNLEADED"
+		<< std::setw(21) << "73.00";
+	std::cout << '\n';
+
+	std::cout << std::setw(2) << "[C]"
+		<< std::setw(13) << "DIESEL"
+		<< std::setw(23) << "76.00";
+	std::cout << '\n';
+	std::cout << std::endl;
 }
