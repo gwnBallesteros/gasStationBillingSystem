@@ -16,7 +16,6 @@ int main()
 	int customerCash;
 	int change;
 
-
 	std::cout << std::fixed << std::showpoint;
 	std::cout << std::setprecision(2);
 
