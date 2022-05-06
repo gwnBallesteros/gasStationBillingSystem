@@ -120,7 +120,9 @@ void itemsList()
 {
 
 	//Item's List
-	std::cout << "**********PETRON GASOLINE STATION**********";
+	std::cout << "**********"
+		      << "PETRON GASOLINE STATION"
+		      << "**********";
 	std::cout << std::endl;
 	std::cout << std::endl;
 
