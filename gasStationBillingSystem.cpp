@@ -1,7 +1,6 @@
 #include <iostream>
 #include <cstdlib>
 #include <iomanip>
-#include <string>
 
 const double premium_price = 74.00;
 const double unleaded_price = 73.00;
