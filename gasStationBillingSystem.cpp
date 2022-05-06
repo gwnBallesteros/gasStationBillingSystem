@@ -39,7 +39,7 @@ int main()
 		//Amount of Liters 
 		totalLiters = amountFill / premium_price;
 		std::cout << "Total no. of Liters: " << totalLiters << '\n';
-		std::cout << "Pay: " << amountFill << 'n';
+		std::cout << "Pay: " << amountFill << '\n';
 		std::cout << std::endl;
 		
 		//Cashier's input
