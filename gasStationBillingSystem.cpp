@@ -54,6 +54,8 @@ int main()
 			std::cout << "Change: 0";
 		else if (customerCash < amountFill)
 			std::cout << "Insufficient Funds" << '\n';
+		else
+			std::cout << "Error";
 		std::cout << std::endl;
 		break;
 
@@ -139,17 +141,17 @@ void itemsList()
 
 	std::cout << std::setw(2) << "[A]"
 		<< std::setw(14) << "PREMIUM"
-		<< std::setw(22) << "74.00";
+		<< std::setw(22) << premium_price;
 	std::cout << '\n';
 
 	std::cout << std::setw(2) << "[B]"
 		<< std::setw(15) << "UNLEADED"
-		<< std::setw(21) << "73.00";
+		<< std::setw(21) << unleaded_price;
 	std::cout << '\n';
 
 	std::cout << std::setw(2) << "[C]"
 		<< std::setw(13) << "DIESEL"
-		<< std::setw(23) << "76.00";
+		<< std::setw(23) << diesel_price;
 	std::cout << '\n';
 	std::cout << std::endl;
 }
