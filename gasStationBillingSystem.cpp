@@ -92,6 +92,8 @@ int main()
 			std::cout << "Change: 0";
 		else if (customerCash < amountFill)
 			std::cout << "Insufficient Funds" << '\n';
+		else
+			std::cout << "Error";
 		std::cout << std::endl;
 		break;
 
@@ -120,6 +122,8 @@ int main()
 			std::cout << "Change: 0";
 		else if (customerCash < amountFill)
 			std::cout << "Insufficient Funds" << '\n';
+		else
+			std::cout << "Error";
 		std::cout << std::endl;
 		break;
 
