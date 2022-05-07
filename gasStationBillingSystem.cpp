@@ -1,7 +1,15 @@
+//************************************************************************
+// G.T. BALLESTEROS
+// 05-06-22
+//
+// GAS STATION BILLING SYSTEM
+//************************************************************************
+
 #include <iostream>
 #include <cstdlib>
 #include <iomanip>
 
+//Constant Variable Declarations
 const double premium_price = 74.00;
 const double unleaded_price = 73.00;
 const double diesel_price = 76.00;
